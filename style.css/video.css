@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  font-size: 40px;
+  font-size: 28px;
   background-color: #31AD4F;
   color: white;
   text-align: center;
@@ -64,4 +64,36 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+
+}
+@media (max-width: 700px) {
+
+  header {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap; 
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .grid-videos {
+    grid-template-columns: 1fr; 
+    padding: 10px;
+  }
+
+  .video-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
